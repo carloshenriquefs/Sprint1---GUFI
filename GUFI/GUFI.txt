@@ -1,0 +1,17 @@
+mvp = produto minimo viavel
+
+Descritivo
+
+TipoUsuario		TipoEvento		Presencas
+IdTipoUsuario		IdTipoEvento		IdPresencas
+Titulo(ADM/Comum)	Titulo			IdUsuario
+						IdEvento
+
+Usuario			Eventos
+IdUsuario		IdEvento
+IdTipoUsuario		NomeEvento
+Nome			Acesso Livre
+Email			DataEvento
+Senha			IdTipoEvento
+DataCadastro		Endereço
+Genero			Descricao
