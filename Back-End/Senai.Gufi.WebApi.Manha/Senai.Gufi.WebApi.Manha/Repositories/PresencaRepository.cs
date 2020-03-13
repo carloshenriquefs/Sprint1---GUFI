@@ -22,28 +22,36 @@ namespace Senai.Gufi.WebApi.Manha.Repositories
             ctx.SaveChanges();
         }
 
-        public Presenca BuscarPorId(int id)
+        public List<Presenca> Listar()
         {
-            return ctx.Presenca.FirstOrDefault(p => p.IdPresenca == id);
+            return ctx.Presenca.ToList();
         }
 
-        public void Cadastrar(Presenca novaPresenca)
+        public void Convidar(Presenca novoConvidado)
         {
+            novoConvidado = new Presenca() { IdUsuario = novoConvidado.IdUsuario, IdEvento = novoConvidado.IdEvento, Situacao = "Aguardando" };
+            
+            ctx.Presenca.Add(novoConvidado);
+
+            ctx.SaveChanges();
+        }
+
+        public void InscricaoEvento(Presenca novaPresenca)
+        {
+            novaPresenca = new Presenca() { IdUsuario = novaPresenca.IdUsuario, IdEvento = novaPresenca.IdEvento };
+
             ctx.Presenca.Add(novaPresenca);
 
             ctx.SaveChanges();
         }
 
-        public void Deletar(int id)
+        public void Situacao(Presenca statusSituacao)
         {
-            ctx.Presenca.Remove(BuscarPorId(id));
+            statusSituacao = new Presenca() { Situacao = statusSituacao.Situacao};
+
+            ctx.Presenca.Update(statusSituacao);
 
             ctx.SaveChanges();
-        }
-
-        public List<Presenca> Listar()
-        {
-            return ctx.Presenca.ToList();
         }
     }
 }

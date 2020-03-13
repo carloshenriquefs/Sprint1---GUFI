@@ -17,5 +17,7 @@ namespace Senai.Gufi.WebApi.Manha.Interfaces
         void Deletar(int id);
 
         Evento BuscarPorId(int id);
+
+        List<Usuario> ListarMeusEventos(Evento evento);
     }
 }

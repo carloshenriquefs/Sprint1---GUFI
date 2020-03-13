@@ -10,12 +10,12 @@ namespace Senai.Gufi.WebApi.Manha.Interfaces
     {
         List<Presenca> Listar();
 
-        void Cadastrar(Presenca novaPresenca);
+        void Situacao(Presenca statusSituacao);
 
-        void Atualizar(int id, Presenca presencaAtualizado);
+        void Convidar(Presenca usuario);
 
-        void Deletar(int id);
+        void InscricaoEvento(Presenca novaPresenca);
 
-        Presenca BuscarPorId(int id);
+        //Presenca BuscarPorId(int id);
     }
 }

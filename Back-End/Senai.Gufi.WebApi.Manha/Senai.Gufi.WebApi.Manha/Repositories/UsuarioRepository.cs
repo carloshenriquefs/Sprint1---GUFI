@@ -23,10 +23,7 @@ namespace Senai.Gufi.WebApi.Manha.Repositories
 
         }
 
-        public Usuario BuscarPorEmailSenha(string email, string senha)
-        {
-            throw new NotImplementedException();
-        }
+      
 
         public Usuario BuscarPorId(int id)
         {
@@ -40,6 +37,11 @@ namespace Senai.Gufi.WebApi.Manha.Repositories
             ctx.SaveChanges();
         }
 
+        public List<Usuario> Convidar(string convidar)
+        {
+            throw new NotImplementedException();
+        }
+
         public void Deletar(int id)
         {
             ctx.Usuario.Remove(BuscarPorId(id));
@@ -51,5 +53,7 @@ namespace Senai.Gufi.WebApi.Manha.Repositories
         {
             return ctx.Usuario.ToList();
         }
+
+      
     }
 }

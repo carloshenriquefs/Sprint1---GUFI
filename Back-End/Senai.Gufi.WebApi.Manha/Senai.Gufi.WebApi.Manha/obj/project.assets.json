@@ -12362,11 +12362,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Senai - Santa cecilia\\Bando-de-Dados\\Nova pasta (3)\\sprint2-backend\\manha\\Senai.Gufi.WebApi.Manha\\Senai.Gufi.WebApi.Manha\\Senai.Gufi.WebApi.Manha.csproj",
+      "projectUniqueName": "D:\\Senai - Santa cecilia\\Bando-de-Dados\\GUFI\\GUFI-novomarco\\Sprint1---GUFI\\Back-End\\Senai.Gufi.WebApi.Manha\\Senai.Gufi.WebApi.Manha\\Senai.Gufi.WebApi.Manha.csproj",
       "projectName": "Senai.Gufi.WebApi.Manha",
-      "projectPath": "D:\\Senai - Santa cecilia\\Bando-de-Dados\\Nova pasta (3)\\sprint2-backend\\manha\\Senai.Gufi.WebApi.Manha\\Senai.Gufi.WebApi.Manha\\Senai.Gufi.WebApi.Manha.csproj",
+      "projectPath": "D:\\Senai - Santa cecilia\\Bando-de-Dados\\GUFI\\GUFI-novomarco\\Sprint1---GUFI\\Back-End\\Senai.Gufi.WebApi.Manha\\Senai.Gufi.WebApi.Manha\\Senai.Gufi.WebApi.Manha.csproj",
       "packagesPath": "C:\\Users\\Carlos Henrique\\.nuget\\packages\\",
-      "outputPath": "D:\\Senai - Santa cecilia\\Bando-de-Dados\\Nova pasta (3)\\sprint2-backend\\manha\\Senai.Gufi.WebApi.Manha\\Senai.Gufi.WebApi.Manha\\obj\\",
+      "outputPath": "D:\\Senai - Santa cecilia\\Bando-de-Dados\\GUFI\\GUFI-novomarco\\Sprint1---GUFI\\Back-End\\Senai.Gufi.WebApi.Manha\\Senai.Gufi.WebApi.Manha\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

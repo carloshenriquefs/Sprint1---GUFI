@@ -16,6 +16,12 @@ namespace Senai.Gufi.WebApi.Manha.Interfaces
 
         void Deletar(int id);
 
-        Usuario BuscarPorEmailSenha(string email, string senha);
+        Usuario BuscarPorId(int id);
+
+        //List<Usuario> ListarMeusEventos(string evento);
+
+        List<Usuario> Convidar(string convidar);
+
+        //List<Usuario> Inscricao(string );
     }
 }

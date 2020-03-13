@@ -28,6 +28,12 @@ namespace Senai.Gufi.WebApi.Manha.Controllers
             return Ok(_eventoRepository.Listar());
         }
 
+        [HttpGet]
+        public IActionResult GetByEvento(string meuEvento)
+        {
+            return Ok(_eventoRepository.ListarMeusEventos(meuEvento));
+        }
+
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
@@ -41,6 +47,7 @@ namespace Senai.Gufi.WebApi.Manha.Controllers
 
             return StatusCode(201);
         }
+
 
         [HttpPut("{id}")]
         public IActionResult Put(int id, Evento eventoAtualizado)
