@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Senai - Santa cecilia\\Bando-de-Dados\\GUFI\\GUFI-novomarco\\Sprint1---GUFI\\Back-End\\Senai.Gufi.WebApi.Manha\\Senai.Gufi.WebApi.Manha\\Senai.Gufi.WebApi.Manha.csproj": {}
+    "C:\\Users\\Carlos Henrique\\Desktop\\GITHUB - Exercicios\\Sprint1---GUFI\\Back-End\\Senai.Gufi.WebApi.Manha\\Senai.Gufi.WebApi.Manha\\Senai.Gufi.WebApi.Manha.csproj": {}
   },
   "projects": {
-    "D:\\Senai - Santa cecilia\\Bando-de-Dados\\GUFI\\GUFI-novomarco\\Sprint1---GUFI\\Back-End\\Senai.Gufi.WebApi.Manha\\Senai.Gufi.WebApi.Manha\\Senai.Gufi.WebApi.Manha.csproj": {
+    "C:\\Users\\Carlos Henrique\\Desktop\\GITHUB - Exercicios\\Sprint1---GUFI\\Back-End\\Senai.Gufi.WebApi.Manha\\Senai.Gufi.WebApi.Manha\\Senai.Gufi.WebApi.Manha.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Senai - Santa cecilia\\Bando-de-Dados\\GUFI\\GUFI-novomarco\\Sprint1---GUFI\\Back-End\\Senai.Gufi.WebApi.Manha\\Senai.Gufi.WebApi.Manha\\Senai.Gufi.WebApi.Manha.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos Henrique\\Desktop\\GITHUB - Exercicios\\Sprint1---GUFI\\Back-End\\Senai.Gufi.WebApi.Manha\\Senai.Gufi.WebApi.Manha\\Senai.Gufi.WebApi.Manha.csproj",
         "projectName": "Senai.Gufi.WebApi.Manha",
-        "projectPath": "D:\\Senai - Santa cecilia\\Bando-de-Dados\\GUFI\\GUFI-novomarco\\Sprint1---GUFI\\Back-End\\Senai.Gufi.WebApi.Manha\\Senai.Gufi.WebApi.Manha\\Senai.Gufi.WebApi.Manha.csproj",
+        "projectPath": "C:\\Users\\Carlos Henrique\\Desktop\\GITHUB - Exercicios\\Sprint1---GUFI\\Back-End\\Senai.Gufi.WebApi.Manha\\Senai.Gufi.WebApi.Manha\\Senai.Gufi.WebApi.Manha.csproj",
         "packagesPath": "C:\\Users\\Carlos Henrique\\.nuget\\packages\\",
-        "outputPath": "D:\\Senai - Santa cecilia\\Bando-de-Dados\\GUFI\\GUFI-novomarco\\Sprint1---GUFI\\Back-End\\Senai.Gufi.WebApi.Manha\\Senai.Gufi.WebApi.Manha\\obj\\",
+        "outputPath": "C:\\Users\\Carlos Henrique\\Desktop\\GITHUB - Exercicios\\Sprint1---GUFI\\Back-End\\Senai.Gufi.WebApi.Manha\\Senai.Gufi.WebApi.Manha\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -22,6 +22,8 @@ namespace Senai.Gufi.WebApi.Manha.Interfaces
 
         List<Usuario> Convidar(string convidar);
 
+        Usuario BuscarPorEmailSenha(string email, string senha);
+
         //List<Usuario> Inscricao(string );
     }
 }

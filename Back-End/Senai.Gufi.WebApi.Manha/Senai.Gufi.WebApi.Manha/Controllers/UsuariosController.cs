@@ -27,6 +27,7 @@ namespace Senai.Gufi.WebApi.Manha.Controllers
         {
             return Ok(_usuarioRepository.Listar());
         }
+        
 
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
@@ -63,6 +64,12 @@ namespace Senai.Gufi.WebApi.Manha.Controllers
             _usuarioRepository.Deletar(id);
 
             return StatusCode(204);
+        }
+
+        [HttpGet]
+        public IActionResult GetConvidar(string convidar)
+        {
+            return Ok(_usuarioRepository.Convidar(convidar));
         }
     }
 }

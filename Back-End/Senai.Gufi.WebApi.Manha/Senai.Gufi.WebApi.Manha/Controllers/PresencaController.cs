@@ -28,41 +28,27 @@ namespace Senai.Gufi.WebApi.Manha.Controllers
             return Ok(_presencaRepository.Listar());
         }
 
-        [HttpGet("{id}")]
-        public IActionResult GetById(int id)
-        {
-            return Ok(_presencaRepository.BuscarPorId(id)); ;
-        }
-
         [HttpPost]
-        public IActionResult Post(Presenca novaPresenca)
+        public IActionResult Post(Presenca usuario)
         {
-            _presencaRepository.Cadastrar(novaPresenca);
+            _presencaRepository.Convidar(usuario);
 
             return StatusCode(201);
         }
 
-        [HttpPut("{id}")]
-        public IActionResult Put(int id, Presenca presencaAtualizada)
+        [HttpPost]
+        public IActionResult PostInscricao(Presenca novaPresenca)
         {
-            try
-            {
-                _presencaRepository.Atualizar(id, presencaAtualizada);
+            _presencaRepository.InscricaoEvento(novaPresenca);
 
-                return StatusCode(204);
-            }
-            catch(Exception erro)
-            {
-                return BadRequest(erro);
-            }
+            return StatusCode(201);
         }
 
-        [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
-        {
-            _presencaRepository.Deletar(id);
 
-            return StatusCode(204);
-        }
+
+      
+
+
+
     }
 }

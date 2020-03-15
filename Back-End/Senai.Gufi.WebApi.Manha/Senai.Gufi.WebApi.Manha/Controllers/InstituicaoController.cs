@@ -57,5 +57,12 @@ namespace Senai.Gufi.WebApi.Manha.Controllers
             }
         }
 
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            _instituicaoRepository.Deletar(id);
+
+            return StatusCode(201);
+        }
     }
 }
