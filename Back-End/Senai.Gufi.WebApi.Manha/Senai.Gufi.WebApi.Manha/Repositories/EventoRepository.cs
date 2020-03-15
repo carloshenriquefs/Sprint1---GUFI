@@ -46,9 +46,10 @@ namespace Senai.Gufi.WebApi.Manha.Repositories
             return ctx.Evento.ToList();
         }
 
-        public List<Usuario> ListarMeusEventos(string evento)
+        public List<Evento> ListarMeusEventos(string evento)
         {
-            return ctx.Evento.ToList().FindAll(e => e.NomeEvento);
+            return ctx.Evento.ToList().FindAll(e => e.NomeEvento == evento);
+            
         }
     }
 }

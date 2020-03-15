@@ -18,6 +18,6 @@ namespace Senai.Gufi.WebApi.Manha.Interfaces
 
         Evento BuscarPorId(int id);
 
-        List<Usuario> ListarMeusEventos(Evento evento);
+        List<Evento> ListarMeusEventos(string evento);
     }
 }

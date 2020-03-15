@@ -23,7 +23,10 @@ namespace Senai.Gufi.WebApi.Manha.Repositories
 
         }
 
-      
+        public Usuario BuscarPorEmailSenha(string email, string senha)
+        {
+            throw new NotImplementedException();
+        }
 
         public Usuario BuscarPorId(int id)
         {
