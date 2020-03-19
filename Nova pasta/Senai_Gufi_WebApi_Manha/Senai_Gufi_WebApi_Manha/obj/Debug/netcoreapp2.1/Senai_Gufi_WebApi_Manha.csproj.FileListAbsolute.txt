@@ -1,0 +1,16 @@
+C:\Users\Carlos Henrique\Desktop\GITHUB - Exercicios\Sprint1---GUFI\Nova pasta\Senai_Gufi_WebApi_Manha\Senai_Gufi_WebApi_Manha\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Carlos Henrique\Desktop\GITHUB - Exercicios\Sprint1---GUFI\Nova pasta\Senai_Gufi_WebApi_Manha\Senai_Gufi_WebApi_Manha\bin\Debug\netcoreapp2.1\Senai_Gufi_WebApi_Manha.deps.json
+C:\Users\Carlos Henrique\Desktop\GITHUB - Exercicios\Sprint1---GUFI\Nova pasta\Senai_Gufi_WebApi_Manha\Senai_Gufi_WebApi_Manha\bin\Debug\netcoreapp2.1\Senai_Gufi_WebApi_Manha.runtimeconfig.json
+C:\Users\Carlos Henrique\Desktop\GITHUB - Exercicios\Sprint1---GUFI\Nova pasta\Senai_Gufi_WebApi_Manha\Senai_Gufi_WebApi_Manha\bin\Debug\netcoreapp2.1\Senai_Gufi_WebApi_Manha.runtimeconfig.dev.json
+C:\Users\Carlos Henrique\Desktop\GITHUB - Exercicios\Sprint1---GUFI\Nova pasta\Senai_Gufi_WebApi_Manha\Senai_Gufi_WebApi_Manha\bin\Debug\netcoreapp2.1\Senai_Gufi_WebApi_Manha.dll
+C:\Users\Carlos Henrique\Desktop\GITHUB - Exercicios\Sprint1---GUFI\Nova pasta\Senai_Gufi_WebApi_Manha\Senai_Gufi_WebApi_Manha\bin\Debug\netcoreapp2.1\Senai_Gufi_WebApi_Manha.pdb
+C:\Users\Carlos Henrique\Desktop\GITHUB - Exercicios\Sprint1---GUFI\Nova pasta\Senai_Gufi_WebApi_Manha\Senai_Gufi_WebApi_Manha\obj\Debug\netcoreapp2.1\Senai_Gufi_WebApi_Manha.csprojAssemblyReference.cache
+C:\Users\Carlos Henrique\Desktop\GITHUB - Exercicios\Sprint1---GUFI\Nova pasta\Senai_Gufi_WebApi_Manha\Senai_Gufi_WebApi_Manha\obj\Debug\netcoreapp2.1\Senai_Gufi_WebApi_Manha.RazorAssemblyInfo.cache
+C:\Users\Carlos Henrique\Desktop\GITHUB - Exercicios\Sprint1---GUFI\Nova pasta\Senai_Gufi_WebApi_Manha\Senai_Gufi_WebApi_Manha\obj\Debug\netcoreapp2.1\Senai_Gufi_WebApi_Manha.RazorAssemblyInfo.cs
+C:\Users\Carlos Henrique\Desktop\GITHUB - Exercicios\Sprint1---GUFI\Nova pasta\Senai_Gufi_WebApi_Manha\Senai_Gufi_WebApi_Manha\obj\Debug\netcoreapp2.1\Senai_Gufi_WebApi_Manha.AssemblyInfoInputs.cache
+C:\Users\Carlos Henrique\Desktop\GITHUB - Exercicios\Sprint1---GUFI\Nova pasta\Senai_Gufi_WebApi_Manha\Senai_Gufi_WebApi_Manha\obj\Debug\netcoreapp2.1\Senai_Gufi_WebApi_Manha.AssemblyInfo.cs
+C:\Users\Carlos Henrique\Desktop\GITHUB - Exercicios\Sprint1---GUFI\Nova pasta\Senai_Gufi_WebApi_Manha\Senai_Gufi_WebApi_Manha\obj\Debug\netcoreapp2.1\Senai_Gufi_WebApi_Manha.RazorTargetAssemblyInfo.cache
+C:\Users\Carlos Henrique\Desktop\GITHUB - Exercicios\Sprint1---GUFI\Nova pasta\Senai_Gufi_WebApi_Manha\Senai_Gufi_WebApi_Manha\obj\Debug\netcoreapp2.1\Senai_Gufi_WebApi_Manha.dll
+C:\Users\Carlos Henrique\Desktop\GITHUB - Exercicios\Sprint1---GUFI\Nova pasta\Senai_Gufi_WebApi_Manha\Senai_Gufi_WebApi_Manha\obj\Debug\netcoreapp2.1\Senai_Gufi_WebApi_Manha.pdb
+C:\Users\Carlos Henrique\Desktop\GITHUB - Exercicios\Sprint1---GUFI\Nova pasta\Senai_Gufi_WebApi_Manha\Senai_Gufi_WebApi_Manha\bin\Debug\netcoreapp2.1\Senai_Gufi_WebApi_Manha.xml
+C:\Users\Carlos Henrique\Desktop\GITHUB - Exercicios\Sprint1---GUFI\Nova pasta\Senai_Gufi_WebApi_Manha\Senai_Gufi_WebApi_Manha\obj\Debug\netcoreapp2.1\Senai_Gufi_WebApi_Manha.xml
