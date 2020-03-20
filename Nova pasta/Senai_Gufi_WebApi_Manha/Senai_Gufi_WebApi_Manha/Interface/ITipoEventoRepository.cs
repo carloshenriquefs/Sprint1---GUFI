@@ -8,6 +8,14 @@ namespace Senai_Gufi_WebApi_Manha.Interface
 {
     interface ITipoEventoRepository
     {
-        List<TipoUsuario> Listar();
+        List<TipoEvento> Listar();
+
+        TipoEvento BuscarPorId(int id);
+
+        void Cadastrar(TipoEvento novoTipoEvento);
+
+        void Deletar(int id);
+
+        void Atualizar(int id, TipoEvento eventoAtualizado);
     }
 }
