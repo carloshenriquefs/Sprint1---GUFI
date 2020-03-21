@@ -1,0 +1,334 @@
+{
+	"info": {
+		"_postman_id": "ec6deaa5-b5b2-4c94-8b84-608705274b61",
+		"name": "GUFI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Instituicao",
+			"item": [
+				{
+					"name": "Instituicao.Listar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:5000/api/Instituicao"
+					},
+					"response": []
+				},
+				{
+					"name": "Instituicao.Cadastrar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n \t\"cnpj\": \"000000000000000\",\r\n\t\"nomeFantasia\": \"Escola Roberto Simonsen\",\r\n    \"endereco\": \"R. Monsenhor Andrade, 298\"\r\n }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:5000/api/Instituicao"
+					},
+					"response": []
+				},
+				{
+					"name": "Instituicao.Atualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Instituicao.Deletar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Instituicao.BuscarPorID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": ""
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Evento",
+			"item": [
+				{
+					"name": "Evento.Listar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:5000/api/Evento"
+					},
+					"response": []
+				},
+				{
+					"name": "Evento.Cadastrar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Evento.Atualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Evento.Deletar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Evento.BuscarPorID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Evento.ListarMeusEventos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": ""
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Usuario",
+			"item": [
+				{
+					"name": "Usuario.Listar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Usuario.Cadastrar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Usuario.Atualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": "http://localhost:5000/api/Usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Usuario.Deletar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Usuario.BuscarPorID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": ""
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "TiposEvento",
+			"item": [
+				{
+					"name": "TiposEvento.Listar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": ""
+					},
+					"response": []
+				},
+				{
+					"name": "TiposEvento.Cadastrar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": ""
+					},
+					"response": []
+				},
+				{
+					"name": "TiposEvento.Atualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": ""
+					},
+					"response": []
+				},
+				{
+					"name": "TiposEvento.Deletar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": ""
+					},
+					"response": []
+				},
+				{
+					"name": "TiposEvento.BuscarPorID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": ""
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Presenca",
+			"item": [
+				{
+					"name": "Presenca.Listar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Presenca.Aprovar/Recusar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Presenca.ConvidarUsuario",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"idUsuario\": 2,\n    \"idEvento\": 2,\n    \"situacao\": \"Confirmada\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:5000/api/Presenca"
+					},
+					"response": []
+				},
+				{
+					"name": "Presenca.InscricaoEvento",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": ""
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "TiposUsuario",
+			"item": [
+				{
+					"name": "TiposUsuario.Listar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": ""
+					},
+					"response": []
+				},
+				{
+					"name": "TiposUsuario.Cadastrar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": ""
+					},
+					"response": []
+				},
+				{
+					"name": "TiposUsuario.Atualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": ""
+					},
+					"response": []
+				},
+				{
+					"name": "TiposUsuario.Deletar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": ""
+					},
+					"response": []
+				},
+				{
+					"name": "TiposUsuario.BuscarPorID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": ""
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
